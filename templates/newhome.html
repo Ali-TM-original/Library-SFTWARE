@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/static/css/home.css" rel="stylesheet">
+    <title>Dash Board</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">Logo</div>
+        <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/db">Database</a></li>
+            <li><a href="/logout">Log out</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="contact-form">
+        <h2>Submit Book</h2>
+        <form action="/home" method="POST">
+          <p>Name</p><input placeholder="Enter Name of the book" type="text" name="book_name">
+          <p>Author</p><input placeholder="Enter Author Name" type="text" name="author_name">
+          <p>Barcode</p><input placeholder="Enter Barcode" type="number" name="barcode">
+          <input type="submit" value="Submit">
+    
+        </form>
+      </div>  
+</body>
+</html>
