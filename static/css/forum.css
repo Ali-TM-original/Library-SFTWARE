@@ -23,7 +23,7 @@ body:before {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 400px;
-	height: 350px;
+	height: 550px;
 	padding: 80px 40px;
 	background: rgba(0, 0, 0, 0.8);
 
@@ -45,7 +45,7 @@ body:before {
 	width: 100%;
 	margin-bottom: 20px;
 }
-.contact-form input[type=email], .contact-form input[type=password] {
+.contact-form input[type=text], .contact-form input[type=number] {
 	border: none;
 	border-bottom: 1px solid #fff;
 	background: transparent;
